@@ -3,9 +3,10 @@ package utils_test
 import (
 	"errors"
 
-	. "github.com/forksu/go-swagger-utils"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+
+	. "github.com/forksu/go-swagger-utils"
 )
 
 var _ = Describe("Payload", func() {
